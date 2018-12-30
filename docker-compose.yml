@@ -1,0 +1,36 @@
+version: '2.1'
+
+services: 
+  product-service:
+    build: 
+      context: ./product
+      dockerfile: Dockerfile
+    expose: 
+      - 8080
+    ports: 
+      - 8080:8080
+    depends_on:
+      - mongo-db-demo
+    environment:
+      - SPRING_PROFILES_ACTIVE=demo
+      - SPRING_DATA_MONGODB_URI=mongodb://admin:Welcome%40123%23@mongo-db-demo:27017/product?authSource=admin&authMechanism=SCRAM-SHA-1
+    networks: 
+      - microservices-demo  
+
+  mongo-db-demo:
+    image: mongo:latest
+    expose:
+      - 27017
+    ports:
+      - 27017:27017
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=admin
+      - MONGO_INITDB_ROOT_PASSWORD=Welcome@123#
+    volumes:
+      - ~/db/mongo:/data/db
+    networks: 
+      - microservices-demo
+
+networks:
+  microservices-demo:
+    driver: bridge

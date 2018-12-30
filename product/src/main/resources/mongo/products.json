@@ -1,0 +1,92 @@
+[
+  {
+    "name": "Amazon Echo Dot",
+    "description": "Echo Dot is a voice-controlled smart speaker with Alexa, designed for any room. Just ask for music, news, information, control compatible smart home devices and more. You can either use the crisp and clear built-in speaker or connect Echo Dot to your own other speakers using Bluetooth or 3.5mm audio cable. Alexa, the brain behind Echo Dot, is built in the cloud, so it is always getting smarter. The more you use Dot, the more Alexa adapts to your speech patterns and vocabulary. Using Alexa is as simple as asking a question – just ask and Alexa will respond instantly.",
+    "price": 4499
+  },
+  {
+    "name": "Canon Pixma G2012 All-in-One Ink Tank Colour Printer (Black)",
+    "description": "Canon PIXMA G2012 NEW! Refillable Ink Tank All-In-One for High Volume Printing, Designed for high volume printing at low running cost - Print, Scan & Copy - ISO Standard print speed (A4): up to 8.8ipm (mono) / 5.0ipm (colour) - Photo Speed (4 x 6\"): 60sec. (borderless) - Integrated Ink Tank System - Spill-Resistant Ink Bottle Design - High page yield ink bottles up to 7000pgs (Black) / 6000pgs (Colour) Features: Resolution- 4800 (horizontal)*1 x 1200 (vertical) dpi Print Head/Ink Number of Nozzles: Total 1,472 nozzles Print Speed: Based on ISO / IEC 24734 - Col ESAT / Simplex Approx. 5.0ipm - B/W: Approx. 8.8ipm - Col: Approx. 17secs - Photo (4 x 6\") PP-201 / Borderless- Approx. 60secs Printable Width: - Bordered: Up to 203.2mm (8 inch) - Borderless: Up to 216mm (8.5 inch) Printable Area: - Border-less: Top / Bottom / Right / Left margin: each 0mm - Bordered: Top margin: 3mm, Bottom margin: 5mm, Left / Right margin: each 3.4mm (Letter / Legal: Left: 6.4mm, Right: 6.3mm) Paper Size: A4, A5, B5, Letter, Legal, 4 x 6\", 5 x 7\", 8x 10\", Envelopes (DL, COM10), Square (5 x 5\"), Business Card, Custom size (width 55 - 215.9mm, length 89 - 676mm) Scanner Type: Flatbed Optical Resolution: 600 x 1200dpi System Requirements: Windows 10, Windows 8.1, Windows 7 SP1 Display LCD (1.2 inch segment mono) Interface USB 2.0 Hi-Speed Paper Output Tray A4, Letter = 50, Legal = 10 Quiet Mode Available Power AC 100 - 240V; 50 / 60Hz Consumables: Canon Original GI-790: Black / Cyan / Magenta / Yellow",
+    "price": 9299
+  },
+  {
+    "name": "Honor 8X (Blue, 4GB RAM, 64GB Storage)",
+    "description": "16.51cm FHD+ Display, Full View Display with Nearly Borderless Design, Glass Body with Visual Grating Effect, Kirin 710 Powerful Chipset, GPU Turbo: High Performance Graphics Processing Efficiency, 3750mAh Enhanced Battery Life, Smart Face Unlock, Dual VoLTE, Super Slow-motion, Capturing Instantaneous Motions, 16MP Front Camera, Enabling High Quality Selfies, 20MP AI Dual Camera* Capturing More than you Can Imagine",
+    "price": 14999
+  },
+  {
+    "name": "IBall Wireless-N Broadband Router (Black)",
+    "description": "Type: Wireless Without Modem 300 Mbps Speed Frequency: 2. 4 GHz External Antenna Security Features: WPA-Personal, WPA2-Personal, WPA-Personal WPA2-Personal, wireless access control.",
+    "price": 995
+  },
+  {
+    "name": "Kindle Oasis - 7\" High Resolution Display, Waterproof, 32 GB, WiFi + Free 3G",
+    "description": "Largest, highest resolution display — 7” and 300 ppi, reads like real paper without glare, even in bright sunlight. Thin and light ergonomic design with dedicated page turn buttons and adaptive front light so you can read even more comfortably for hours. 32 GB storage to hold even more books. The first waterproof (IPX8) Kindle so you are free to read and relax in even more places.",
+    "price": 28999
+  },
+  {
+    "name": "OnePlus 6T (Midnight Black, 8GB RAM, 128GB Storage)",
+    "description": "Camera: 20+16 MP Dual rear camera with Optical image stabilization, Super slow motion, Intelligent Scene Recognition, Nightscape mode and Studio lighting| 16 MP front camera. \nDisplay: 16.2 centimeters (6.41-inch) Full HD+ Optic AMOLED display with 2340 x 1080 pixels resolution and an 86% screen-to-body ratio. \nScreen Unlock: In-screen fingerprint sensor. The OnePlus 6T unlocks the moment your finger lands on the display for a seamless and intuitive unlock experience. \nMemory, Storage & SIM: 8GB RAM | 128GB storage | Dual nano SIM with dual standby (4G+4G). \nOperating System and Processor: Android v9.0 operating system with 2.8GHz Qualcomm Snapdragon 845 octa core processor. \nBattery : 3700mAH lithium-polymer battery with Fast Charge technology",
+    "price": 41999
+  },
+  {
+    "name" : "TP-Link TL-WR841N 300Mbps Wireless-N Router (Not a modem)",
+    "description" : "Wireless N series speed up to 300Mbps router. \nCompatible with input type RJ-45(Ethernet Cable) supported by ISP's all over India such as ACT Fibernet, Airtel Fibernet, Hathway, Tikona, Exitel, YOU Broadband, SITI, GTPL etc",
+    "price" : 999
+  },
+  {
+    "name" : "Pirelli Diablo Rosso II 150/60 R17 M/CTL 66H Tubeless Bike Tyre, Rear",
+    "description" : "A Bi-Compound rear tyre combining long lasting mileage with excellent grip. Pirelli Enhanced Patch Technology (EPT) optimising the contact patch for improved grip.. Functional Groove Design (FGD) to optimise wet behaviour. Attractive tread design. Quieter and safer ride in all seasons",
+    "price" : 5650
+  },
+  {
+    "name" : "Michelin XM2 165/80 R14 Tubeless Car Tyre",
+    "description" : "Vehicle Compatibility: Fiat Punto / Maruti Swift / Nissan Evalia. Latest generation of tyre. Deliver the best performance on Indian roads. Attractive tread design. Designed to minimize uneven wear. Section Width=165,Tire Aspect Ratio=80,Rim Size=14",
+    "price" : 3889
+  },
+  {
+    "name" : "Sony 163.9 cm (65 inches) Bravia 4K Ultra HD Android Smart LED TV KD-65X9000F (Black)",
+    "description" : "Resolution : 4K Ultra HD (3840x2160p) | Refresh Rate: 100 hertz. \nDisplay: 4K Ultra HDR | X-Motion Clarity | Triluminous Display | 4K X-Reality Pro | X-tended Dynamic Range. \nSmart TV Features: Built-in WiFi |Android TV | X1 Extreme Processor | Voice Search | Netflix and Amazon Prime Video | Google Play | Phone Notifications. \nConnectivity: 4 HDMI ports to connect set top box, Blu Ray players, gaming console | 3 USB ports to connect hard drives and other USB devices. \nSound : 20 Watts Output | Bass Reflex Speaker | ClearAudio+",
+    "price" : 249990
+  },
+  {
+    "name" : "Apple iPad Pro MPLL2HN/A Tablet (12.9 inch, 512GB, Wi-Fi + 4G LTE), Gold",
+    "description" : "12MP primary camera with auto focus with focus pixels and 7MP front facing camera. \n32.77 centimeters (12.9-inch) LED-backlit with multi-touch capacitive touchscreen with 2732 x 2048 pixels resolution. \niOS v10 operating system with 2.38GHz A10X Fusion chip with 64‑bit architecture Embedded M10 hexa core processor, 4GB RAM, 512GB internal memory and single SIM. \n10307mAH lithium-ion battery",
+    "price" : 136000
+  },
+  {
+    "name" : "Kores Easy Cut 891 Paper Shredder",
+    "description" : "An advertently designed micro cut paper shredder which easily converts paper into small pieces of confetti and offers allmost security. \nIt has a P5 level of security ensuring the safety of your documents. \nEach of it's shred cycle is of 40 minutes. \nShreds 8 sheets papers at once. \nIt is easy to use and exceptionally quiet during operation. \nA heavy duty paper shredder with an overload/overheat protection. \nIt has a multicoloured body with a standby LED light.",
+    "price" : 6473
+  },
+  {
+    "name" : "Canon EOS 6D Mark II 26.2MP Digital SLR Camera with EF24-105 mm f/4L is II USM Lens",
+    "description" : "26.2MP full-frame CMOS sensor. \nDual pixel CMOS AF. \n45-point all cross-type AF up to 6.5fps continuous shooting. \nISO: 100 to 40000 (expandable to 102400). \nGPS, Wi-Fi, NFC and Bluetooth low energy",
+    "price" : 184900
+  },
+  {
+    "name" : "Bose Quiet Comfort 35 II Wireless Headphone (Black)",
+    "description" : "World-class noise cancellation makes quiet sound quieter and music sound better. \nBluetooth and NFC pairing with voice prompts make for hassle-free wireless connections. \nVolume-optimized EQ gives you balanced audio performance at any volume",
+    "price" : 26425
+  },
+  {
+    "name" : "LG 1.5 Ton 3 Star Inverter Split AC (Copper, JS-Q18CPXD2, White)",
+    "description" : "Energy Rating: 3 Star. \nType: Inverter Split AC. \n1.5 Ton Capacity: Suitable for medium sized rooms (120 to 180 sq ft). \nWarranty: 1 year warranty on product and 9 years warranty on compressor. \nCondenser Type: Copper for best in class, energy efficient cooling with easy maintenance. \nSpecial features: Stabilizer free operation, gold fin condenser, annual electricity consumption: 792.22 units/year as per BEE Label",
+    "price" : 37999
+  },
+  {
+    "name" : "American Tourister Cruze ABS 70 cms Black Hardsided Suitcase",
+    "description" : "Outer Material: ABS, Casing: Hard, Color: Black. \nWear Resistant: Wear resistant, Water Resistance: Water proof. \nCapacity: 84 liters; Weight: 3600 grams; Dimensions: 48 cms x 30 cms x 70 cms (LxWxH). \nLock Type: Number Lock, Number of Wheels: 4, Number of compartments: 2",
+    "price" : 5482
+  },
+  {
+    "name" : "Sony HT-RT40 Real 5.1ch Dolby Digital Tall boy Soundbar Home Theatre System",
+    "description" : "Real 5.1 channel surround sound provides immersive sound. \nOne touch wireless listening with NFC and Bluetooth. \nMusic center app compatibility. \nEnjoy your favorite playlist by just plugging in your USB. \nTall boy speakers",
+    "price" : 21990
+  },
+  {
+    "name" : "Apple Watch Series 3 GPS 42mm Smart Watch (Space Grey Aluminum Case, Black Sport Band)",
+    "description" : "Built-in GPS and GLONASS. \nWater resistant 50 meters. \nIon-X glass. \n2x brighter OLED Retina display with force touch (1000 nits). \nCeramic back. \nDigital crown. \nHeart rate sensor, accelerometer and gyroscope",
+    "price" : 30900
+  }
+]
