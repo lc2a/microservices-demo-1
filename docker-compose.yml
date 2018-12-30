@@ -23,18 +23,41 @@ services:
       - SERVER_PORT=8081
       - SPRING_APPLICATION_NAME=product-service
       - EUREKA_SERVICE_URL=http://eureka-server:8761/eureka
-      - MONGODB_URI=mongodb://admin:Welcome%40123%23@mongo-db-demo:27017/product?authSource=admin&authMechanism=SCRAM-SHA-1
+      - MONGODB_URI=mongodb://admin:Welcome%40123%23@mongo-db:27017/product?authSource=admin&authMechanism=SCRAM-SHA-1
     expose: 
       - 8081
     ports: 
       - 8081:8081
     depends_on:
-      - mongo-db-demo
+      - mongo-db
       - eureka-server
     networks: 
       - microservices-demo  
 
-  mongo-db-demo:
+  order-service:
+    build: 
+      context: ./order
+      dockerfile: Dockerfile
+    environment:
+      - SERVER_PORT=8091
+      - SPRING_APPLICATION_NAME=order-service
+      - EUREKA_SERVICE_URL=http://eureka-server:8761/eureka
+      - SPRING_DATASOURCE_URL=jdbc:mysql://mysql-db:3306/orderdb
+      - SPRING_DATASOURCE_USERNAME=root
+      - SPRING_DATASOURCE_PASSWORD=r00t
+      - SPRING_JPA_HIBERNATE_DDL_AUTO=update
+      - SPRING_JPA_DATABASE_PLATFORM=org.hibernate.dialect.MySQL5Dialect
+    expose: 
+      - 8091
+    ports: 
+      - 8091:8091
+    depends_on:
+      - eureka-server
+      - mysql-db
+    networks: 
+      - microservices-demo  
+
+  mongo-db:
     image: mongo:latest
     expose:
       - 27017
@@ -45,6 +68,22 @@ services:
       - MONGO_INITDB_ROOT_PASSWORD=Welcome@123#
     volumes:
       - ~/db/mongo:/data/db
+    networks: 
+      - microservices-demo
+
+  mysql-db:
+    image: mysql:5.6
+    expose:
+      - 3306
+    ports:
+      - 3306:3306
+    environment:
+      - MYSQL_USER=admin
+      - MYSQL_PASSWORD=welcome
+      - MYSQL_ROOT_PASSWORD=r00t
+      - MYSQL_DATABASE=orderdb
+    volumes:
+      - ~/db/mysql:/var/lib/mysql
     networks: 
       - microservices-demo
 
