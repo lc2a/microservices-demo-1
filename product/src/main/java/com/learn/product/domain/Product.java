@@ -1,17 +1,14 @@
 package com.learn.product.domain;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import lombok.AccessLevel;
 import lombok.Data;
-import lombok.Getter;
-import lombok.Setter;
 import org.springframework.data.annotation.CreatedDate;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.annotation.LastModifiedDate;
+import org.springframework.data.mongodb.core.index.Indexed;
 import org.springframework.data.mongodb.core.mapping.Document;
 import org.springframework.data.mongodb.core.mapping.Field;
 
-import javax.validation.constraints.NotNull;
 import java.util.Date;
 
 @Data
@@ -20,6 +17,10 @@ public class Product {
 
     @Id
     private String id;
+
+    @Field(value="product_id")
+    @Indexed(unique = true)
+    private String productId;
 
     @Field(value = "name")
     private String name;

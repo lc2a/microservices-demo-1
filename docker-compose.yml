@@ -1,18 +1,36 @@
 version: '2.1'
 
-services: 
+services:
+  eureka-server:
+    build: 
+      context: ./eureka
+      dockerfile: Dockerfile
+    environment:
+      - SERVER_PORT=8761
+      - SPRING_APPLICATION_NAME=eureka-server
+    expose: 
+      - 8761
+    ports: 
+      - 8761:8761
+    networks: 
+      - microservices-demo 
+
   product-service:
     build: 
       context: ./product
       dockerfile: Dockerfile
+    environment:
+      - SERVER_PORT=8081
+      - SPRING_APPLICATION_NAME=product-service
+      - EUREKA_SERVICE_URL=http://eureka-server:8761/eureka
+      - MONGODB_URI=mongodb://admin:Welcome%40123%23@mongo-db-demo:27017/product?authSource=admin&authMechanism=SCRAM-SHA-1
     expose: 
-      - 8080
+      - 8081
     ports: 
-      - 8080:8080
+      - 8081:8081
     depends_on:
       - mongo-db-demo
-    environment:
-      - SPRING_DATA_MONGODB_URI=mongodb://admin:Welcome%40123%23@mongo-db-demo:27017/product?authSource=admin&authMechanism=SCRAM-SHA-1
+      - eureka-server
     networks: 
       - microservices-demo  
 
