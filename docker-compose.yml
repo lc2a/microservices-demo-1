@@ -12,7 +12,6 @@ services:
     depends_on:
       - mongo-db-demo
     environment:
-      - SPRING_PROFILES_ACTIVE=demo
       - SPRING_DATA_MONGODB_URI=mongodb://admin:Welcome%40123%23@mongo-db-demo:27017/product?authSource=admin&authMechanism=SCRAM-SHA-1
     networks: 
       - microservices-demo  
